@@ -5,7 +5,7 @@ html {
     height: 100%;
 }
 body {
-    background-image: url(dynamic-style.png);
+    background-image: url(./dynamic-style.png);
     background-size: auto;
     color: rgb(102, 0, 255);
     
@@ -17,7 +17,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #102ec4;
-    background-image: url(herringbone.png);
+    background-image: url(./herringbone.png);
 }
 p {
     margin-top: 50px;
