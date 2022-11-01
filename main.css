@@ -1,0 +1,27 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    background-image: url(/dynamic-style.png);
+    background-size: auto;
+    color: rgb(102, 0, 255);
+    
+}
+.profile-image {
+    float: center;
+    position: relative;
+    margin-left: 40%;}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #102ec4;
+    background-image: url(/herringbone.png);
+}
+p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 40px;
+  }
