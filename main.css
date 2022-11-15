@@ -25,7 +25,7 @@ p {
     margin-right: 75px;
     margin-left: 40px;
   }
-.bar {
+nav {
     display: flex;
     justify-content: space-around;
 }
