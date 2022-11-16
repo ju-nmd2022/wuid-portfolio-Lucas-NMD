@@ -1,0 +1,10 @@
+
+body {
+    background-image: url(/white-waves.png);
+}
+.cards {
+    display: grid;
+    gap: 1.5em;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+}
