@@ -11,3 +11,7 @@ h1 {
     gap: 1.5em;
     grid-template-columns: repeat(auto-fit, minmax(200px, 400px)); 
 }
+
+img {
+    border-radius: 10%;
+}
