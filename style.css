@@ -1,10 +1,13 @@
 
 body {
-    background-image: url(/white-waves.png);
+    background-image: url(/gravel.png);
+}
+
+h1 {
+    text-align: center;
 }
 .cards {
     display: grid;
     gap: 1.5em;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px)); 
 }
