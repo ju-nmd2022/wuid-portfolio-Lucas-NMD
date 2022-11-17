@@ -115,3 +115,19 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
+.figma-link {
+    float: right;
+    right: 20%;
+}
+.table {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 20%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #102ec4;
+    text-align: center;
+}
