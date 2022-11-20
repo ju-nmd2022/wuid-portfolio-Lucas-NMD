@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'Capture_it';
-    src: url('Capture_it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Garogier';
-    src: url('Garogier-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 html {
     height: 100%;
@@ -17,9 +5,9 @@ html {
 body {
     background-image: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/ep_naturalblack.png);
     background-size: auto;
-    color: rgb(102, 0, 255);
+    color: hsl(265, 17%, 86%);
     font-family: "Garogier";
-    
+    font-size: larger;
 }
 .profile-image {
     float: center;
@@ -27,10 +15,10 @@ body {
     margin-left: 40%;}
 
 h1, h2, h3, h4, h5, h6 {
-    color: #102ec4;
-    background-image: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/herringbone.png);
+    color: hsl(0, 0%, 100%);
     text-align: center;
-    font-family: "Capture-it";
+    font-family: "Capture_it";
+    font-size: xx-large;
 }
 p {
     margin-top: 50px;
@@ -50,4 +38,17 @@ nav {
 
 a:visited {
     color: white;
+}
+
+@font-face {
+    font-family: "Capture_it";
+    src: url('./Capture_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Garogier";
+    src: url('./Garogier-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
