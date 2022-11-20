@@ -5,7 +5,7 @@ html {
     height: 100%;
 }
 body {
-    background-image: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/white-waves.png);
+    background-image: url(https: //ju nmd 2022github .io/wuid portfolio Lucas NMD/ep_naturalblack.png);
     background-size: auto;
     color: rgb(102, 0, 255);
     
@@ -28,5 +28,11 @@ p {
   }
 nav {
     display: flex;
-    justify-content: space-around;
+    top: 0%;
+    padding-top: 1%;
+    gap: 1rem;
+    background-color: hsl(0, 0%, 0%);
 }
+
+a:visited {
+    color: hsl(0, 100%, 97%);
