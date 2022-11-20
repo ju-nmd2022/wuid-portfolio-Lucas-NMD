@@ -28,11 +28,13 @@ p {
   }
 nav {
     display: flex;
+    position: absolute;
     top: 0%;
     padding-top: 1%;
-    gap: 1rem;
-    background-color: hsl(0, 0%, 0%);
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    gap: 10px;
+    background-image: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/ep_naturalwhite.png);
 }
 
-a:visited {
-    color: hsl(0, 100%, 97%);
