@@ -1,5 +1,5 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Garogier";
 }
 html {
     height: 100%;
@@ -130,4 +130,17 @@ nav {
 h1, h2, h3, h4, h5, h6 {
     color: #102ec4;
     text-align: center;
+    font-family: "Capture_it";
+}
+@font-face {
+    font-family: "Capture_it";
+    src: url('./Capture_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Garogier";
+    src: url('./Garogier-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
