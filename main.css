@@ -42,13 +42,13 @@ a:visited {
 
 @font-face {
     font-family: "Capture_it";
-    src: url('./Capture_it-webfont.woff') format('woff');
+    src: url('https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/Capture_it-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Garogier";
-    src: url('./Garogier-webfont.woff') format('woff');
+    src: url('https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/Garogier-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
