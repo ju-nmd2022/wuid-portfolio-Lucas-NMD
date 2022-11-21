@@ -43,6 +43,9 @@ nav {
 }
 button {
     background-color: transparent;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
 }
 
 a:visited {
