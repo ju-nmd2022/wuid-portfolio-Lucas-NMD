@@ -32,7 +32,8 @@ p {
   }
 nav {
     display: flex;
-    position: absolute;
+    align-content: space-around;
+    justify-content: flex-end;
     top: 0%;
     left: 1%;
     padding-top: 1%;
@@ -46,6 +47,16 @@ button {
     padding: 9px 25px;
     border: none;
     border-radius: 50px;
+    color: white;
+}
+
+button:hover {
+    color: aqua;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
 }
 
 a:visited {
