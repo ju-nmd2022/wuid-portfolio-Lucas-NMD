@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Capture_it";
     font-size: xx-large;
 }
+h1 {
+    font-size: 3em;
+}
+
 p {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -28,7 +32,9 @@ p {
   }
 nav {
     display: flex;
+    position: absolute;
     top: 0%;
+    left: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -38,6 +44,7 @@ nav {
 
 a:visited {
     color: white;
+    text-decoration: none;
 }
 
 @font-face {
