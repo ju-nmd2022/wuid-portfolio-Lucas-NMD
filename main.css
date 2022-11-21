@@ -68,6 +68,9 @@ a:visited {
     border: 10px;
     border-color: white;
     font-family: "Capture_it";
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
 
 }
 .hero-text {
@@ -91,6 +94,8 @@ a:visited {
 }
 .hero img {
     height: 10 px;
+    animation-name: Hero;
+    animation-duration: 5s;
 }
 header {
     display: flex;
@@ -108,4 +113,20 @@ header {
     src: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/Garogier-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
+}
+@keyframes Hero {
+    from {
+        opacity: 0;
+        }
+    to {
+        opacity: 1;
+    }  
+}
+@keyframes btn {
+    from {
+        transform: translateX(-600px);
+    }
+    to {
+        transform: translateX(0px);
+    }
 }
