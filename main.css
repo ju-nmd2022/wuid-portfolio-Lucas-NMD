@@ -41,6 +41,9 @@ nav {
     padding-right: 1%;
     gap: 10px;
 }
+button {
+    background-color: transparent;
+}
 
 a:visited {
     color: white;
