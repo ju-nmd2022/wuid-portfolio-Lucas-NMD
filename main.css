@@ -64,6 +64,10 @@ a:visited {
     text-decoration: none;
 }
 
+.logo {
+    display: inline-block;
+}
+
 @font-face {
     font-family: "Capture_it";
     src: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/Capture_it-webfont.woff) format('woff');
