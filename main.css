@@ -31,9 +31,6 @@ p {
     margin-left: 40px;
   }
 nav {
-    display: flex;
-    align-content: space-around;
-    justify-content: flex-end;
     top: 0%;
     left: 1%;
     padding-top: 1%;
@@ -64,10 +61,14 @@ a:visited {
     text-decoration: none;
 }
 
-.logo {
-    display: inline-block;
+.hero img {
+    height: 10 px;
 }
-
+header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
 @font-face {
     font-family: "Capture_it";
     src: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/Capture_it-webfont.woff) format('woff');
