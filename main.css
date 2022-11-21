@@ -60,7 +60,35 @@ a:visited {
     color: white;
     text-decoration: none;
 }
+.btn {
+    position:absolute;
+    left: 70%;
+    bottom: 12%;
+    font-size: 2em;
+    border: 10px;
+    border-color: white;
+    font-family: "Capture_it";
 
+}
+.hero-text {
+    background-color: black;
+    position:absolute;
+    left: 2%;
+    top: 32%;
+    font-family: "Capture_it";
+    font-size: 4.65em;
+    outline-style: solid;
+    outline-width: 40px;
+    outline-color: rgba(0, 0, 0, 0.5);
+}
+.hero-text2 {
+    position: absolute;
+    bottom: 32%;
+    right: 5%;
+    font-family: "Garogier";
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 .hero img {
     height: 10 px;
 }
