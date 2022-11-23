@@ -14,7 +14,7 @@ h1 {
 .cards {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
     grid-column: span 1;
     grid-auto-flow: dense;
 }
@@ -64,39 +64,38 @@ h1 {
     ov
 }
 
-    nav {
-        display: flex;
-        align-content: space-around;
-        justify-content: flex-end;
-        top: 0%;
-        left: 1%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        padding-left: 1%;
-        padding-right: 1%;
-        gap: 10px;
-    }
-    button {
-        background-color: transparent;
-        padding: 9px 25px;
-        border: none;
-        border-radius: 50px;
-        color: white;
-    }
+nav {
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-end;
+    top: 0%;
+    left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    gap: 10px;
+}
+button {
+    background-color: transparent;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}    
+button:hover {
+    color: aqua;
+}
     
-    button:hover {
-        color: aqua;
-    }
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
     
-    a {
-        color: aliceblue;
-        text-decoration: none;
-    }
-    
-    a:visited {
-        color: white;
-        text-decoration: none;
-    }
+a:visited {
+    color: white;
+    text-decoration: none;
+}
     
 .figma-link {
     float: right;
