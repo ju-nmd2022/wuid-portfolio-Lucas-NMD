@@ -1,13 +1,47 @@
 * {
     font-family: "Garogier";
 }
+nav {
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-end;
+    top: 0%;
+    left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    gap: 10px;
+}
+button {
+    background-color: transparent;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}    
+button:hover {
+    color: aqua;
+}
+    
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+    
+a:visited {
+    color: white;
+    text-decoration: none;
+}
 body {
-    background-image: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/gravel.png);
+    background-image: url(https://ju-nmd2022.github.io/wuid-portfolio-Lucas-NMD/ep_naturalblack.png);
     padding: 0;
     text-align: center;
     margin: 20px;
 }
-
+.logo {
+    float: left;
+}
 h1 {
     text-align: center;
 }
@@ -61,42 +95,7 @@ h1 {
     opacity: 1;
     padding: 1em;
     transition: .4s ease-in-out;
-    ov
 }
-
-nav {
-    display: flex;
-    align-content: space-around;
-    justify-content: flex-end;
-    top: 0%;
-    left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-    gap: 10px;
-}
-button {
-    background-color: transparent;
-    padding: 9px 25px;
-    border: none;
-    border-radius: 50px;
-    color: white;
-}    
-button:hover {
-    color: aqua;
-}
-    
-a {
-    color: aliceblue;
-    text-decoration: none;
-}
-    
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-    
 .figma-link {
     float: right;
     right: 20%;
@@ -109,7 +108,7 @@ a:visited {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #102ec4;
+    color: white;
     text-align: center;
     font-family: "Capture_it";
 }
